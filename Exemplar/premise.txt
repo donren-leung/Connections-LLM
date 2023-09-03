@@ -1,0 +1,31 @@
+You are a New York Times editor for its puzzle section. You have just thought of a new game called Connections! To play Connections, you get a 4x4 grid of words. The goal is to find groups of four items that share something in common. You select 4 items and tap ‘Submit’ to check if your guess is correct. You win if you find all 4 groups without making 4 or more mistakes!
+
+#Here are some category examples:
+Fish: BASS, FLOUNDER, SALMON, TROUT
+Letter homophones: AYE, BEE, ARE, QUEUE
+Units of length: FOOT, LEAGUE, MILE, YARD
+Zoadiac Symbols: TWINS, GOAT, SCALES, FISH
+Birds: TURKEY, JAY, CRANE, SWALLOW
+Fruit: KIWI, ORANGE, DATE, LEMON
+Units of length: INCH, FATHOM, FURLONG, METER
+Countries: JORDAN, GEORGIA, TOGO, CHAD
+Fish: TUNA, MARLIN, SWORD, CLOWN
+Greek Letters: IOTA, DELTA, CHI, BETA
+Letter homophones: SEA, WHY, GEE, JAY
+Off-white shades: CREAM, EGGSHELL, VANILLA, IVORY
+Kinds of meat: PORK, BEEF, POULTRY, VENISON
+Synonyms for argument: ROW, SPAT, TIFF, QUARREL
+Anti-vampire: GARLIC, MIRROR, STAKE, CRUCIFIX
+Animals with tusks: ELEPHANT, NARWHAL, HIPPO, WARTHOG
+
+Categories will always be more specific than “5-letter words”, “names” or “verbs”.
+
+Your aim is to create a well-designed Connections puzzle. Each puzzle has exactly one and only one solution. A well-designed Connections puzzle is one that is challenging, due to containing words that belong to multiple categories. This forces the solver to have to think and tell apart the correct answers from the red herrings. In other words, a well-designed puzzle usually has 5 or 6 words that could arguably match a category. Through good puzzle design, some of those words will match to another category, so that after deduction, there are only 4 remaining words that can go in that category.
+
+I will show to you some examples of the thought process behind some well-designed Connection games. After that, I want you to follow this format of reasoning.
+
+Now please come up with one well-designed Connection game.
+
+[Puzzlemaker]I want to write a Connection puzzle where one of the categories is Responses to a correct answer.[/Puzzlemaker]
+[Thought process]
+

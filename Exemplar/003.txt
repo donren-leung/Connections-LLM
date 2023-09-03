@@ -1,0 +1,27 @@
+[Puzzlemaker]I want to write a Connection puzzle where one of the categories is Poker Terms.[/Puzzlemaker]
+[Thought process]
+Category #1, Poker Terms: FOLD, BLUFF, FLOP, ANTE, RIVER, SUITED, TURN, CHECK, STREET, CALL, RAISE, ALL-IN.
+A pivot word from Category #1 could be RIVER, which refers to the final community card in a Texas Hold'em game but could also be a flowing body of water. Therefore:
+Category #2, Geographical Features: RIVER, HILL, MOUNTAIN, VALLEY, BAY, PLATEAU, CAPE, ISLAND, DELTA.
+A pivot word from Category #2 could be CAPE, which refers to a point of land jutting out into the sea, but it can also refer to a type of clothing item often worn by superheroes. Therefore:
+Category #3, Items in Superhero Costumes: CAPE, MASK, BOOTS, BELT, GLOVES, SUIT, SHIELD, COWL, ARMOUR.
+A pivot word from Category #3 could be MASK, which refers to the attire worn by a superhero but could also mean to obscure or hide something. Therefore:
+Category #4, Synonyms for Obscure: MASK, CONCEAL, CLOAK, SHROUD, VEIL, DISGUISE, ECLIPSE, CAMOUFLAGE.
+
+These are the pivot words:
+- RIVER could be in either (Poker Terms, #1) or (Geographical Features, #2).
+- CAPE could be in either (Geographical Features, #2) or (Items in Superhero Costumes, #3).
+- MASK could be in either (Items in Superhero Costumes, #3) or (Synonyms for Obscure, #4).
+
+These are bonus word combinations that have connections through categories NOT MENTIONED above, i.e., could serve as red herrings or distractions from the real categories:
+- BLUFF in (Poker Terms, #1) has connotations of (Geographical Features, #2) as it could mean a steep cliff or bank.
+- SUIT in (Items in Superhero Costumes, #3) has connotations of (Poker Terms, #1), as it could refer to the sets that a deck of cards is divided into.
+- DISGUISE in (Synonyms for Obscure, #4) has connotations of (Poker Terms, #1), as it could refer to the act of making ones hand seem stronger or weaker than it is.
+- CLOAK in (Synonyms for Obscure, #4) has connotations of (Items in Superhero Costumes, #3), as it could be something that a superhero might wear.
+
+Therefore, one of the possibilities for the final puzzle incorporating the pivot words and as many bonus words, whilst ensuring 16 unique words divided equally amongst the 4 categories is:
+#1 Poker Terms: CALL, BLUFF, RIVER, CHECK
+#2 Geographical Features: VALLEY, CAPE, BAY, DELTA
+#3 Items in Superhero Costumes: MASK, SUIT, BELT, SHIELD
+#4 Synonyms for Obscure: ECLIPSE, CLOAK, VEIL, CONCEAL
+[/Thought process]

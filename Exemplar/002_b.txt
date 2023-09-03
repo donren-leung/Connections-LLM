@@ -19,7 +19,7 @@ These are bonus words combinations that have connections through categories NOT 
 - APPLE in (Prefixes of jack, #4) has connotations of (Snacks, #3) as it is a food item.
 - SNAG in (Verbs for damage, #2) has connotations of (Snacks, #3) as it is an Australian slang for a sausage.
 
-Therefore, one of the possibilities for the final puzzle incorporating the pivot words and as many bonus words, whilst ensuring 4 words in each of the 4 categories is:
+Therefore, one of the possibilities for the final puzzle incorporating the pivot words and as many bonus words, whilst ensuring 16 unique words divided equally amongst the 4 categories is:
 #1 Response to a correct answer: AFFIRMATIVE, DING, RIGHT, AYE
 #2 Verbs for damage: SCRATCH, TEAR, CHIP, SNAG
 #3 Snacks: CRACKER, NACHO, PRETZEL, WING

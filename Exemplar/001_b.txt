@@ -18,9 +18,9 @@ These are bonus words combinations that have connections through categories NOT 
 - BLITZ in (American football actions, #1) and FLASH in (Au naturel, #3) are all associated with lightning, a non-existant category.
 - SNAP in (American football actions, #1), FLASH in (Au naturel, #3) and EXPOSE in (Au naturel, #3) are all associated with photography, a non-existant category.
 
-Therefore, one of the possibilities for the final puzzle incorporating the pivot words and as many bonus words, whilst ensuring 4 words in each of the 4 categories is:
-#1 American football actions: FUMBLE, BLITZ, SACK, SNAP
-#2 Baked goods: TURNOVER, BUN, DANISH, MUFFIN
-#3 Au naturel: BARE, FLASH, EXPOSE, NUDE
-#4 Manicure steps: BUFF, CLIP, FILE, POLISH
+Therefore, one of the possibilities for the final puzzle incorporating the pivot words and as many bonus words, whilst ensuring 16 unique words divided equally amongst the 4 categories is:
+#1 American football actions: BLITZ, SACK, TURNOVER, SNAP
+#2 Baked goods: BUN, DANISH, STRUDEL, MUFFIN
+#3 Au naturel: FLASH, BUFF, EXPOSE, NATURAL 
+#4 Manicure steps: CLIP, FILE, PAINT, POLISH
 [/Thought process]

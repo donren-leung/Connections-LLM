@@ -1,0 +1,144 @@
+You are a New York Times editor for its puzzle section. You have just thought of a new game called Connections! To play Connections, you get a 4x4 grid of words. The goal is to find groups of four items that share something in common. You select 4 items and tap ‘Submit’ to check if your guess is correct. You win if you find all 4 groups without making 4 or more mistakes!
+
+Here are some category examples:
+Fish: BASS, FLOUNDER, SALMON, TROUT
+Letter homophones: AYE, BEE, ARE, QUEUE
+Units of length: FOOT, LEAGUE, MILE, YARD
+Zoadiac Symbols: TWINS, GOAT, SCALES, FISH
+Birds: TURKEY, JAY, CRANE, SWALLOW
+Fruit: KIWI, ORANGE, DATE, LEMON
+Units of length: INCH, FATHOM, FURLONG, METER
+Countries: JORDAN, GEORGIA, TOGO, CHAD
+Fish: TUNA, MARLIN, SWORD, CLOWN
+Greek Letters: IOTA, DELTA, CHI, BETA
+Letter homophones: SEA, WHY, GEE, JAY
+Off-white shades: CREAM, EGGSHELL, VANILLA, IVORY
+Kinds of meat: PORK, BEEF, POULTRY, VENISON
+Synonyms for argument: ROW, SPAT, TIFF, QUARREL
+Anti-vampire: GARLIC, MIRROR, STAKE, CRUCIFIX
+Animals with tusks: ELEPHANT, NARWHAL, HIPPO, WARTHOG
+
+Categories will always be more specific than “5-letter words”, “names” or “verbs”.
+
+Your aim is to create a well-designed Connections puzzle. Each puzzle has exactly one and only one solution. A well-designed Connections puzzle is one that is challenging, due to containing words that belong to multiple categories. This forces the solver to have to think and tell apart the correct answers from the red herrings. In other words, a well-designed puzzle usually has 5 or 6 words that could arguably match a category. Through good puzzle design, some of those words will match to another category, so that after deduction, there are only 4 remaining words that can go in that category.
+
+I will show to you some examples of the thought process behind some well-designed Connection games. After that, I want you to follow this format of reasoning.
+
+[Puzzlemaker]I want to write a Connection puzzle, where one of the categories is about American football.[/Puzzlemaker]
+[Thought process]
+Category #1, American football actions: BLITZ, RUSH, SACK, TURNOVER, FUMBLE, TOUCHDOWN, SAFETY, SNAP, FLAG, PUNT, PASS.
+A pivot word from Category #1 could be TURNOVER, which is used here to mean “loss of possession”, but it could also be a baked pastry. Therefore:
+Category #2, Baked goods: TURNOVER, DANISH, CAKE, STRUDEL, MUFFIN, PIE, BUN, PIZZA, QUICHE.
+Category #3, Au naturel: BARE, NAKED, NUDE, COMMANDO, UNCLAD, BUFF, EXPOSE, FLASH, NATURAL.
+A pivot word from Category #3 is BUFF, which is used here as part of the phrase “in the buff” to mean someone is naked, but it could also be a manicure step. Therefore:
+Category #4, Manicure terms: BUFF, TRIM, PAINT, FILE, CLIP, POLISH.
+
+These are the pivot words:
+- TURNOVER could be in either (American football actions, #1) or (Baked goods, #2).
+- BUFF could be in either (Au naturel, #3) or (Manicure terms, #4).
+
+These are bonus words combinations that have connections through categories NOT MENTIONED above, i.e. could serve as red herrings or distractions from the real categories:
+- POLISH in (Manicure terms, #4) and DANISH in (Baked goods, #2) are both European nationalities, a non-existant category.
+- SACK in (American football actions, #1) has connotations of (Au naturel, #3) by being slang for ballsack.
+- BUN in (Baked goods, #2) has connotations of (Au naturel, #3) as it could be a colloquialism for buttocks.
+- BLITZ in (American football actions, #1) and FLASH in (Au naturel, #3) are all associated with lightning, a non-existant category.
+- SNAP in (American football actions, #1), FLASH in (Au naturel, #3) and EXPOSE in (Au naturel, #3) are all associated with photography, a non-existant category.
+
+Therefore, one of the possibilities for the final puzzle incorporating the pivot words and as many bonus words, whilst ensuring 16 unique words divided equally amongst the 4 categories is:
+#1 American football actions: FUMBLE, BLITZ, SACK, SNAP
+#2 Baked goods: TURNOVER, BUN, DANISH, MUFFIN
+#3 Au naturel: BARE, FLASH, EXPOSE, NUDE
+#4 Manicure steps: BUFF, CLIP, FILE, POLISH
+[/Thought process]
+
+
+[Puzzlemaker]I want to write a Connection puzzle where one of the categories is Responses to a correct answer.[/Puzzlemaker]
+[Thought process]
+Category #1, Response to a correct answer: BINGO, AYE, FACTUAL, CORRECT, RIGHT, YES, DING, BRAVO, TRUE, AFFIRMATIVE, 100%.
+A pivot word from Category #1 could be DING, which is used here as the sound of a bell, but it could also mean to make a dent (“I dinged my car”). Therefore:
+Category #2, Verbs for damage: DING, NICK, WARP, CHIP, SCUFF, SCRATCH, TEAR, SNAG, TARNISH.
+A pivot word from Category #2 could be CHIP, which is used here to mean “break off a small piece from some material” but it could also mean a thin slice of deep fried potatoes, like “a bag of chips”. Therefore:
+Category #3, Snacks: CHIP, FRY, POPCORN, NACHO, CORNDOG, POPPER, WING, CRACKER, SLIDER, FRITTER, PRETZEL.
+A pivot word from Category #3 could be is CRACKER, which is used here to mean a thin dry biscuit, but it could also be the prefix of jack, as in "crackerjack". Therefore:
+Category #4: Prefixes of jack: APPLE, BLACK, CRACKER, HI, FLAP, LUMBER, UNION. 
+
+These are the pivot words:
+- DING could be in either (Response to a correct answer, #1) or (Verbs for damage, #2).
+- CHIP could be in either (Verbs for damage, #2) or (Snacks, #3).
+- CRACKER could be in either (Snacks, #3) or (Prefixes of jack, #4).
+
+These are bonus words combinations that have connections through categories NOT MENTIONED above, i.e. could serve as red herrings or distractions from the real categories:
+- DING in (Response to a correct answer, #1) and FLAP in (Prefixes of jack, #4) are both onomatopoeia, a non-existant category.
+- FLAP in (Prefixes of jack, #4) and WING in (Snacks, #3) are both associated with birds.
+- APPLE in (Prefixes of jack, #4) has connotations of (Snacks, #3) as it is a food item.
+- SNAG in (Verbs for damage, #2) has connotations of (Snacks, #3) as it is an Australian slang for a sausage.
+
+Therefore, one of the possibilities for the final puzzle incorporating the pivot words and as many bonus words, whilst ensuring 16 unique words divided equally amongst the 4 categories is:
+#1 Response to a correct answer: AFFIRMATIVE, DING, RIGHT, AYE
+#2 Verbs for damage: SCRATCH, TEAR, CHIP, SNAG
+#3 Snacks: CRACKER, NACHO, PRETZEL, WING
+#4 Prefix to jack: APPLE, FLAP, UNION, HI
+[/Thought process]
+
+[Puzzlemaker]I want to write a Connection puzzle where one of the categories is Poker Terms.[/Puzzlemaker]
+[Thought process]
+Category #1, Poker Terms: FOLD, BLUFF, FLOP, ANTE, RIVER, SUITED, TURN, CHECK, STREET, CALL, RAISE, ALL-IN.
+A pivot word from Category #1 could be RIVER, which refers to the final community card in a Texas Hold'em game but could also be a flowing body of water. Therefore:
+Category #2, Geographical Features: RIVER, HILL, MOUNTAIN, VALLEY, BAY, PLATEAU, CAPE, ISLAND, DELTA.
+A pivot word from Category #2 could be CAPE, which refers to a point of land jutting out into the sea, but it can also refer to a type of clothing item often worn by superheroes. Therefore:
+Category #3, Items in Superhero Costumes: CAPE, MASK, BOOTS, BELT, GLOVES, SUIT, SHIELD, COWL, ARMOUR.
+A pivot word from Category #3 could be MASK, which refers to the attire worn by a superhero but could also mean to obscure or hide something. Therefore:
+Category #4, Synonyms for Obscure: MASK, CONCEAL, CLOAK, SHROUD, VEIL, DISGUISE, ECLIPSE, CAMOUFLAGE.
+
+These are the pivot words:
+- RIVER could be in either (Poker Terms, #1) or (Geographical Features, #2).
+- CAPE could be in either (Geographical Features, #2) or (Items in Superhero Costumes, #3).
+- MASK could be in either (Items in Superhero Costumes, #3) or (Synonyms for Obscure, #4).
+
+These are bonus word combinations that have connections through categories NOT MENTIONED above, i.e., could serve as red herrings or distractions from the real categories:
+- BLUFF in (Poker Terms, #1) has connotations of (Geographical Features, #2) as it could mean a steep cliff or bank.
+- SUIT in (Items in Superhero Costumes, #3) has connotations of (Poker Terms, #1), as it could refer to the sets that a deck of cards is divided into.
+- DISGUISE in (Synonyms for Obscure, #4) has connotations of (Poker Terms, #1), as it could refer to the act of making ones hand seem stronger or weaker than it is.
+- CLOAK in (Synonyms for Obscure, #4) has connotations of (Items in Superhero Costumes, #3), as it could be something that a superhero might wear.
+
+Therefore, one of the possibilities for the final puzzle incorporating the pivot words and as many bonus words, whilst ensuring 16 unique words divided equally amongst the 4 categories is:
+#1 Poker Terms: CALL, BLUFF, RIVER, CHECK
+#2 Geographical Features: VALLEY, CAPE, BAY, DELTA
+#3 Items in Superhero Costumes: MASK, SUIT, BELT, SHIELD
+#4 Synonyms for Obscure: ECLIPSE, CLOAK, VEIL, CONCEAL
+[/Thought process]
+
+Now please come up with one well-designed Connection game.
+
+[Puzzlemaker]I want to write a Connection puzzle where one of the categories is Things Made Of Rubber[/Puzzlemaker]
+[Thought process]
+
+===
+
+[Puzzlemaker]I want to write a Connection puzzle where one of the categories is Things Made Of Rubber.[/Puzzlemaker]
+[Thought process]
+Category #1, Things Made Of Rubber: BALL, TIRE, BOOT, BAND, FLIPPER, GASKET, ERASER, GLOVE.
+A pivot word from Category #1 could be BAND, which is used here to mean "rubber band," but it could also refer to a group of musicians. Therefore:
+Category #2, Groups of Musicians: BAND, ORCHESTRA, QUARTET, TRIO, DUO, ENSEMBLE, CHOIR.
+A pivot word from Category #2 could be TRIO, which refers to a group of three musicians but can also describe a set of three similar things or people. Therefore:
+Category #3, Groups of Three: TRIO, TRINITY, TRIAD, TRIPLET, TRIFECTA.
+A pivot word from Category #3 could be TRIFECTA, which refers to a group of three but is also a betting term. Therefore:
+Category #4, Betting Terms: TRIFECTA, POT, ODDS, SPREAD, OVER/UNDER, BOOKIE, PARLAY.
+
+These are the pivot words:
+
+BAND could be in either (Things Made Of Rubber, #1) or (Groups of Musicians, #2).
+TRIO could be in either (Groups of Musicians, #2) or (Groups of Three, #3).
+TRIFECTA could be in either (Groups of Three, #3) or (Betting Terms, #4).
+These are bonus word combinations that have connections through categories NOT MENTIONED above, i.e., could serve as red herrings or distractions from the real categories:
+
+BALL in (Things Made Of Rubber, #1) has connotations of (Groups of Musicians, #2), as in a "ballroom orchestra."
+GLOVE in (Things Made Of Rubber, #1) has connotations of (Betting Terms, #4), as in the phrase "glove up" before a fight that people may bet on.
+CHOIR in (Groups of Musicians, #2) has connotations of (Things Made Of Rubber, #1) because choirs often use "rubber" soles to avoid noise.
+ODDS in (Betting Terms, #4) has connotations of (Groups of Three, #3), as in "the odds are three to one."
+Therefore, one of the possibilities for the final puzzle incorporating the pivot words and as many bonus words, whilst ensuring 16 unique words divided equally amongst the 4 categories is:
+#1 Things Made Of Rubber: BALL, TIRE, GLOVE, BAND
+#2 Groups of Musicians: ORCHESTRA, TRIO, QUARTET, DUO
+#3 Groups of Three: TRINITY, TRIPLET, TRIFECTA, TRIAD
+#4 Betting Terms: POT, ODDS, SPREAD, BOOKIE
+[/Thought process]

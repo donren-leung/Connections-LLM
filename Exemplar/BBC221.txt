@@ -1,0 +1,18 @@
+[Puzzlemaker]
+#1 Names for marijuana: HAY, GREEN, TEA, GRASS 
+#2 Suffix to jack: RABBIT, KNIFE, HAMMER, ASS
+#3 Philosophers: BERLIN, KANT, MILL, LOCKE
+#4 Things you can 'fire': QUESTION, POT, GUN, EMPLOYEE 
+Explain why this is a well-designed puzzle.
+[/Puzzlemaker]
+
+[Thought process]
+These are the pivot words:
+POT could be in either (Things you can 'fire', #4) or (Names for marijuana, #1).
+
+These are bonus word combinations that have connections through categories NOT MENTIONED above, i.e., could serve as red herrings or distractions from the real categories:
+RABBIT in (Suffix to jack, #2) has connotations of (Names for marijuana, #1) considering "rabbit tobacco" as another name for certain herbs smoked.
+HAY in (Names for marijuana, #1), GRASS in (Names for marijuana, #1), RABBIT in (Suffix to jack, #2), GUN in (Things you can 'fire', #4) and MILL in (Philosophers, #3) all have connections to farming or agriculture, a non-existant category.
+ASS in (Suffix to jack, #2) and RABBIT in (Suffix to jack, #2) are both animals, a non-existant category.
+KNIFE in (Suffix to jack, #2), HAMMER in (Suffix to jack, #2) and GUN in (Things you can 'fire', #4) could all be murder weapons, a non-existant category.
+[/Thought process]

@@ -19,7 +19,7 @@ These are bonus word combinations that have connections through categories NOT M
 - DISGUISE in (Synonyms for Obscure, #4) has connotations of (Poker Terms, #1), as it could refer to the act of making ones hand seem stronger or weaker than it is.
 - CLOAK in (Synonyms for Obscure, #4) has connotations of (Items in Superhero Costumes, #3), as it could be something that a superhero might wear.
 
-Therefore, one of the possibilities for the final puzzle incorporating the pivot words and as many bonus words, whilst ensuring 16 unique words divided equally amongst the 4 categories is:
+Therefore, one of the possibilities for the final puzzle incorporating the pivot words and as many bonus words as possible, whilst ensuring 16 unique words divided equally amongst the 4 categories is:
 #1 Poker Terms: CALL, BLUFF, RIVER, CHECK
 #2 Geographical Features: VALLEY, CAPE, BAY, DELTA
 #3 Items in Superhero Costumes: MASK, SUIT, BELT, SHIELD

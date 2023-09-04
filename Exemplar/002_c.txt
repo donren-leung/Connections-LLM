@@ -1,9 +1,9 @@
 [Puzzlemaker]I want to write a Connection puzzle where one of the categories is Responses to a correct answer.[/Puzzlemaker]
 [Thought process]
 Category #1, Response to a correct answer: BINGO, AYE, FACTUAL, CORRECT, RIGHT, YES, DING, BRAVO, TRUE, AFFIRMATIVE, 100%.
-A pivot word from Category #1 could be DING, which is used here as the sound of a bell, but it could also mean to make a dent (“I dinged my car”). Therefore:
+A pivot word from Category #1 could be DING, which is used here as the sound of a bell, but it could also mean to make a dent ("I dinged my car"). Therefore:
 Category #2, Verbs for damage: DING, NICK, WARP, CHIP, SCUFF, SCRATCH, TEAR, SNAG, TARNISH.
-A pivot word from Category #2 could be CHIP, which is used here to mean “break off a small piece from some material” but it could also mean a thin slice of deep fried potatoes, like “a bag of chips”. Therefore:
+A pivot word from Category #2 could be CHIP, which is used here to mean "break off a small piece from some material" but it could also mean a thin slice of deep fried potatoes, like "a bag of chips". Therefore:
 Category #3, Snacks: CHIP, FRY, POPCORN, NACHO, CORNDOG, POPPER, WING, CRACKER, SLIDER, FRITTER, PRETZEL.
 A pivot word from Category #3 could be is CRACKER, which is used here to mean a thin dry biscuit, but it could also be the prefix of jack, as in "crackerjack". Therefore:
 Category #4: Prefixes of jack: APPLE, BLACK, CRACKER, HI, FLAP, LUMBER, UNION. 
@@ -19,7 +19,7 @@ These are bonus words combinations that have connections through categories NOT 
 - APPLE in (Prefixes of jack, #4) has connotations of (Snacks, #3) as it is a food item.
 - SNAG in (Verbs for damage, #2) has connotations of (Snacks, #3) as it is an Australian slang for a sausage.
 
-Therefore, one of the possibilities for the final puzzle incorporating the pivot words and as many bonus words, whilst ensuring 16 unique words divided equally amongst the 4 categories is:
+Therefore, one of the possibilities for the final puzzle incorporating the pivot words and as many bonus words as possible, whilst ensuring 16 unique words divided equally amongst the 4 categories is:
 #1 Response to a correct answer: DING, 100%, FACTUAL, AYE
 #2 Verbs for damage: SCUFF, SCRATCH, TEAR, SNAG
 #3 Snacks: NACHO, CHIP, CRACKER, WING

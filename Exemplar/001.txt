@@ -1,10 +1,10 @@
 [Puzzlemaker]I want to write a Connection puzzle, where one of the categories is about American football.[/Puzzlemaker]
 [Thought process]
 Category #1, American football actions: BLITZ, RUSH, SACK, TURNOVER, FUMBLE, TOUCHDOWN, SAFETY, SNAP, FLAG, PUNT, PASS.
-A pivot word from Category #1 could be TURNOVER, which is used here to mean “loss of possession”, but it could also be a baked pastry. Therefore:
+A pivot word from Category #1 could be TURNOVER, which is used here to mean "loss of possession", but it could also be a baked pastry. Therefore:
 Category #2, Baked goods: TURNOVER, DANISH, CAKE, STRUDEL, MUFFIN, PIE, BUN, PIZZA, QUICHE.
 Category #3, Au naturel: BARE, NAKED, NUDE, COMMANDO, UNCLAD, BUFF, EXPOSE, FLASH, NATURAL.
-A pivot word from Category #3 is BUFF, which is used here as part of the phrase “in the buff” to mean someone is naked, but it could also be a manicure step. Therefore:
+A pivot word from Category #3 is BUFF, which is used here as part of the phrase "in the buff" to mean someone is naked, but it could also be a manicure step. Therefore:
 Category #4, Manicure terms: BUFF, TRIM, PAINT, FILE, CLIP, POLISH.
 
 These are the pivot words:
@@ -18,7 +18,7 @@ These are bonus words combinations that have connections through categories NOT 
 - BLITZ in (American football actions, #1) and FLASH in (Au naturel, #3) are all associated with lightning, a non-existant category.
 - SNAP in (American football actions, #1), FLASH in (Au naturel, #3) and EXPOSE in (Au naturel, #3) are all associated with photography, a non-existant category.
 
-Therefore, one of the possibilities for the final puzzle incorporating the pivot words and as many bonus words, whilst ensuring 16 unique words divided equally amongst the 4 categories is:
+Therefore, one of the possibilities for the final puzzle incorporating the pivot words and as many bonus words as possible, whilst ensuring 16 unique words divided equally amongst the 4 categories is:
 #1 American football actions: FUMBLE, BLITZ, SACK, SNAP
 #2 Baked goods: TURNOVER, BUN, DANISH, MUFFIN
 #3 Au naturel: BARE, FLASH, EXPOSE, NUDE

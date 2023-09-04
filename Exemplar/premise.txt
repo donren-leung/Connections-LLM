@@ -18,7 +18,7 @@ Synonyms for argument: ROW, SPAT, TIFF, QUARREL
 Anti-vampire: GARLIC, MIRROR, STAKE, CRUCIFIX
 Animals with tusks: ELEPHANT, NARWHAL, HIPPO, WARTHOG
 
-Categories will always be more specific than “5-letter words”, “names” or “verbs”.
+Categories will always be more specific than "5-letter words", "names" or "verbs".
 
 Your aim is to create a well-designed Connections puzzle. Each puzzle has exactly one and only one solution. A well-designed Connections puzzle is one that is challenging, due to containing words that belong to multiple categories. This forces the solver to have to think and tell apart the correct answers from the red herrings. In other words, a well-designed puzzle usually has 5 or 6 words that could arguably match a category. Through good puzzle design, some of those words will match to another category, so that after deduction, there are only 4 remaining words that can go in that category.
 

@@ -1,0 +1,19 @@
+{
+    "id": "cmpl-32a8b481-bcf8-44ab-b380-f9a8dc93e773",
+    "object": "text_completion",
+    "created": 1694283428,
+    "model": "/home/don/learn/text-generation-webui/models/pywiz/wizardcoder-python-13b-v1.0.Q4_K_M.gguf",
+    "choices": [
+        {
+            "text": "Question: Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nConvert this list into JSON format: Each person is an object containing the person's first name, birth year, whether they are still alive.\nIf a person has children, nest those persons inside the \"children\" property, which is a list of person objects. If a person does not have children, then set the children to null.\nQueen Elizabeth II (1926-2022) - deceased\n    - Charles (1948-) - alive\n        - Prince William (1982-) - alive\n            - Prince George (2013-) - alive\n            - Princess Charlotte (2015-) - alive\n            - Prince Louis (2018-) - alive\n        - Prince Harry (1984-) - alive\n            - Archie (2019-) - alive\n            - Lilibet (2021-) - alive\n    - Princess Anne (1950-) - alive\n    - Prince Andrew (1960-) - alive\n    - Prince Edward (1964-) - alive\n\nFor example, this is what the object for Elizabeth II would look like (children unfilled)\n{\n    \"name\": \"Elizabeth\",\n    \"birth_year\": 1926,\n    \"alive\": false,\n    \"children\": []\n}\n\n\n### Response:\nAnswer:```json\r\n{\r\n   \"name\":\"Queen Elizabeth II\",\r\n   \"birth_year\":1926,\r\n   \"alive\":false,\r\n   \"children\":[\r\n      {\r\n         \"name\":\"Charles\",\r\n         \"birth_year\":1948,\r\n         \"alive\":true,\r\n         \"children\":[\r\n            {\r\n               \"name\":\"Prince William\",\r\n               \"birth_year\":1982,\r\n               \"alive\":true,\r\n               \"children\":[\r\n                  {\r\n                     \"name\":\"Prince George\",\r\n                     \"birth_year\":2013,\r\n                     \"alive\":true,\r\n                     \"children\":null\r\n                  },\r\n                  {\r\n                     \"name\":\"Princess Charlotte\",\r\n                     \"birth_year\":2015,\r\n                     \"alive\":true,\r\n                     \"children\":null\r\n                  },\r\n                  {\r\n                     \"name\":\"Prince Louis\",\r\n                     \"birth_year\":2018,\r\n                     \"alive\":true,\r\n                     \"children\":null\r\n                  }\r\n               ]\r\n            },\r\n            {\r\n               \"name\":\"Prince Harry\",\r\n               \"birth_year\":1984,\r\n               \"alive\":true,\r\n               \"children\":[\r\n                  {\r\n                     \"name\":\"Archie\",\r\n                     \"birth_year\":2019,\r\n                     \"alive\":true,\r\n                     \"children\":null\r\n                  },\r\n                  {\r\n                     \"name\":\"Lilibet\",\r\n                     \"birth_year\":2021,\r\n                     \"alive\":true,\r\n                     \"children\":null\r\n                  }\r\n               ]\r\n            }\r\n         ]\r\n      },\r\n      {\r\n         \"name\":\"Princess Anne\",\r\n         \"birth_year\":1950,\r\n         \"alive\":true,\r\n         \"children\":null\r\n      },\r\n      {\r\n         \"name\":\"Prince Andrew\",\r\n         \"birth_year\":1960,\r\n         \"alive\":true,\r\n         \"children\":null\r\n      },\r\n      {\r\n         \"name\":\"Prince Edward\",\r\n         \"birth_year\":1964,\r\n         \"alive\":true,\r\n         \"children\":null\r\n      }\r\n   ]\r\n}\r\n``` ",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 335,
+        "completion_tokens": 574,
+        "total_tokens": 909
+    }
+}

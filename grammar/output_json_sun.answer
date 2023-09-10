@@ -1,0 +1,36 @@
+Question: Name the first four planets in the solar system, along with its orbital period and number of moons, in JSON format. Also try to give a couple of interesting facts about the planet.
+Answer:[
+  {
+    "name": "Mercury",
+    "orbital period (days)": 88,
+    "moons": 0,
+    "interesting facts": [
+      "Mercury is the closest planet to the sun and orbits at a speed of about 495 miles per hour.",
+      "It has a rocky surface and no atmosphere, so temperatures can vary greatly between day and night."
+    ]
+  },
+  {
+    "name": "Venus",
+    "orbital period (days)": 225,
+    "moons": 0,
+    "interesting facts": [
+      "Venus is often called Earth's 'sister planet' because of its similar size and composition.",
+      "It has a thick atmosphere that traps heat, making it the hottest planet in our solar system."
+    ]
+  },
+  {
+    "name": "Earth",
+    "orbital period (days)": 365.242,
+    "moons": 1,
+    "interesting facts": [
+      "Earth is the only planet known to support life and has a diverse range of ecosystems.",
+      "It has a large moon called the Moon that orbits around it, and its gravity affects the tides on Earth."
+    ]
+  },
+  {
+    "name": "Mars",
+    "orbital period (days)": 687,
+    "moons": 2,
+    "interesting facts": [
+      "Mars is often called the 'Red Planet' because of its reddish appearance.",
+      "It has a thin atmosphere and no liquid water on its surface, but it does have

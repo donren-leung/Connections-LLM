@@ -1,0 +1,19 @@
+{
+    "id": "cmpl-11b1f0aa-0cd8-49d7-931d-a4fa462f4f8e",
+    "object": "text_completion",
+    "created": 1694264014,
+    "model": "/home/don/learn/text-generation-webui/models/TheBloke_WizardLM-13B-Uncensored-GGML/wizardLM-13B-Uncensored.gguf.q4_K_M.bin",
+    "choices": [
+        {
+            "text": "Question: Name the first eight planets in the solar system in JSON format. Make each planet an object, with three properties: \"name\", its \"orbital period\" around the sun in days, and the number of moons it has.\nAnswer:[\n  {\n    \"name\": \"Mercury\",\n    \"orbital_period\": 88,\n    \"moons\": 0\n  },\n  {\n    \"name\": \"Venus\",\n    \"orbital_period\": 225,\n    \"moons\": 0\n  },\n  {\n    \"name\": \"Earth\",\n    \"orbital_period\": 365,\n    \"moons\": 1\n  },\n  {\n    \"name\": \"Mars\",\n    \"orbital_period\": 687,\n    \"moons\": 2\n  },\n  {\n    \"name\": \"Jupiter\",\n    \"orbital_period\": 4333,\n    \"moons\": 79\n  },\n  {\n    \"name\": \"Saturn\",\n    \"orbital_period\": 10759,\n    \"moons\": 82\n  },\n  {\n    \"name\": \"Uranus\",\n    \"orbital_period\": 30687,\n    \"moons\": 27\n  },\n  {\n    \"name\": \"Neptune\",\n    \"orbital_period\": 49901,\n    \"moons\": 14\n  }\n]",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 54,
+        "completion_tokens": 307,
+        "total_tokens": 361
+    }
+}

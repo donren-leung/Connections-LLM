@@ -1,0 +1,106 @@
+Question: Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Convert this list into JSON format: Each person is an object containing the person's first name, birth year, whether they are still alive.
+If a person has children, nest those persons inside the "children" property, which is a list of person objects. If a person does not have children, then set the children to null.
+Queen Elizabeth II (1926-2022) - deceased
+    - Charles (1948-) - alive
+        - Prince William (1982-) - alive
+            - Prince George (2013-) - alive
+            - Princess Charlotte (2015-) - alive
+            - Prince Louis (2018-) - alive
+        - Prince Harry (1984-) - alive
+            - Archie (2019-) - alive
+            - Lilibet (2021-) - alive
+    - Princess Anne (1950-) - alive
+    - Prince Andrew (1960-) - alive
+    - Prince Edward (1964-) - alive
+
+For example, this is what the object for Elizabeth II would look like (children unfilled)
+{
+    "name": "Elizabeth",
+    "birth_year": 1926,
+    "alive": false,
+    "children": []
+}
+
+
+### Response:
+Answer:```json
+{
+   "name":"Queen Elizabeth II",
+   "birth_year":1926,
+   "alive":false,
+   "children":[
+      {
+         "name":"Charles",
+         "birth_year":1948,
+         "alive":true,
+         "children":[
+            {
+               "name":"Prince William",
+               "birth_year":1982,
+               "alive":true,
+               "children":[
+                  {
+                     "name":"Prince George",
+                     "birth_year":2013,
+                     "alive":true,
+                     "children":null
+                  },
+                  {
+                     "name":"Princess Charlotte",
+                     "birth_year":2015,
+                     "alive":true,
+                     "children":null
+                  },
+                  {
+                     "name":"Prince Louis",
+                     "birth_year":2018,
+                     "alive":true,
+                     "children":null
+                  }
+               ]
+            },
+            {
+               "name":"Prince Harry",
+               "birth_year":1984,
+               "alive":true,
+               "children":[
+                  {
+                     "name":"Archie",
+                     "birth_year":2019,
+                     "alive":true,
+                     "children":null
+                  },
+                  {
+                     "name":"Lilibet",
+                     "birth_year":2021,
+                     "alive":true,
+                     "children":null
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Princess Anne",
+         "birth_year":1950,
+         "alive":true,
+         "children":null
+      },
+      {
+         "name":"Prince Andrew",
+         "birth_year":1960,
+         "alive":true,
+         "children":null
+      },
+      {
+         "name":"Prince Edward",
+         "birth_year":1964,
+         "alive":true,
+         "children":null
+      }
+   ]
+}
+``` 

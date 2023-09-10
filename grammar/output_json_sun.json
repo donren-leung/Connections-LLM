@@ -1,0 +1,19 @@
+{
+    "id": "cmpl-81422d97-762f-4dd7-aa09-26d2dfae5dbf",
+    "object": "text_completion",
+    "created": 1694267589,
+    "model": "/home/don/learn/text-generation-webui/models/TheBloke_WizardLM-13B-Uncensored-GGML/wizardLM-13B-Uncensored.gguf.q4_K_M.bin",
+    "choices": [
+        {
+            "text": "Question: Name the first four planets in the solar system, along with its orbital period and number of moons, in JSON format. Also try to give a couple of interesting facts about the planet.\nAnswer:[\n  {\n    \"name\": \"Mercury\",\n    \"orbital period (days)\": 88,\n    \"moons\": 0,\n    \"interesting facts\": [\n      \"Mercury is the closest planet to the sun and orbits at a speed of about 495 miles per hour.\",\n      \"It has a rocky surface and no atmosphere, so temperatures can vary greatly between day and night.\"\n    ]\n  },\n  {\n    \"name\": \"Venus\",\n    \"orbital period (days)\": 225,\n    \"moons\": 0,\n    \"interesting facts\": [\n      \"Venus is often called Earth's 'sister planet' because of its similar size and composition.\",\n      \"It has a thick atmosphere that traps heat, making it the hottest planet in our solar system.\"\n    ]\n  },\n  {\n    \"name\": \"Earth\",\n    \"orbital period (days)\": 365.242,\n    \"moons\": 1,\n    \"interesting facts\": [\n      \"Earth is the only planet known to support life and has a diverse range of ecosystems.\",\n      \"It has a large moon called the Moon that orbits around it, and its gravity affects the tides on Earth.\"\n    ]\n  },\n  {\n    \"name\": \"Mars\",\n    \"orbital period (days)\": 687,\n    \"moons\": 2,\n    \"interesting facts\": [\n      \"Mars is often called the 'Red Planet' because of its reddish appearance.\",\n      \"It has a thin atmosphere and no liquid water on its surface, but it does have",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "length"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 46,
+        "completion_tokens": 400,
+        "total_tokens": 446
+    }
+}

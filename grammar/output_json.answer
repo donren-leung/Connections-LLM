@@ -1,0 +1,43 @@
+Question: Name the first eight planets in the solar system in JSON format. Make each planet an object, with three properties: "name", its "orbital period" around the sun in days, and the number of moons it has.
+Answer:[
+  {
+    "name": "Mercury",
+    "orbital_period": 88,
+    "moons": 0
+  },
+  {
+    "name": "Venus",
+    "orbital_period": 225,
+    "moons": 0
+  },
+  {
+    "name": "Earth",
+    "orbital_period": 365,
+    "moons": 1
+  },
+  {
+    "name": "Mars",
+    "orbital_period": 687,
+    "moons": 2
+  },
+  {
+    "name": "Jupiter",
+    "orbital_period": 4333,
+    "moons": 79
+  },
+  {
+    "name": "Saturn",
+    "orbital_period": 10759,
+    "moons": 82
+  },
+  {
+    "name": "Uranus",
+    "orbital_period": 30687,
+    "moons": 27
+  },
+  {
+    "name": "Neptune",
+    "orbital_period": 49901,
+    "moons": 14
+  }
+]

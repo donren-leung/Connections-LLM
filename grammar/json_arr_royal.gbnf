@@ -14,7 +14,7 @@ person ::=
     "{" ws (
         "\"name\""                      ":" ws string "," ws
         "\"birth year\""                       ":" ws number "," ws
-        "\"alive\""                       ":" ws value ws
+        "\"alive\""                       ":" ws value "," ws
         "\"children\""                  ":" ws personArray | "null" ws 
     ) "}" ws
 

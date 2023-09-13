@@ -16,7 +16,7 @@ Queen Elizabeth II (1926-2022) - deceased
     - Prince Andrew (1960-) - alive
     - Prince Edward (1964-) - alive
 
-For example, this is what the object for Elizabeth II would look like (children unfilled)
+For example, this is what the object for Elizabeth II would look like (children left unfilled)
 {
     "name": "Elizabeth",
     "birth_year": 1926,

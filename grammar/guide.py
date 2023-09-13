@@ -2,8 +2,8 @@ import sys
 from llama_cpp import Llama, LlamaGrammar
 import json
 
-# grammar = LlamaGrammar.from_file(sys.argv[1])
-grammar =None
+grammar = LlamaGrammar.from_file(sys.argv[1])
+# grammar = sys.argv[1]
 verbose = True
 outfile = sys.argv[2] + ".json"
 outfile2 = sys.argv[2] + ".answer"
@@ -19,12 +19,10 @@ Queen Elizabeth II (1926-2022) - deceased
             - Prince Louis (2018-) - alive
         - Prince Harry (1984-) - alive
             - Archie (2019-) - alive
-            - Lilibet (2021-) - alive
     - Princess Anne (1950-) - alive
-    - Prince Andrew (1960-) - alive
-    - Prince Edward (1964-) - alive
+Princess Margaret (1930-2002) - deceased
 
-For example, this is what the object for Elizabeth II would look like (children unfilled)
+For example, this is what the object for Elizabeth II would look like (children left unfilled)
 {
     "name": "Elizabeth",
     "birth_year": 1926,
@@ -38,10 +36,12 @@ question = f"""Below is an instruction that describes a task. Write a response t
 {user}\n
 ### Response:"""
 
+# question = "".join(open("output_json_royal2.answer", 'r').readlines())
+
 llm = Llama(model_path="/home/don/learn/text-generation-webui/models/pywiz/wizardcoder-python-13b-v1.0.Q4_K_M.gguf",
             verbose=verbose, n_gpu_layers=0, n_ctx=2048, n_threads=8)
 output = llm(f'{question}',
-             max_tokens=600, temperature=0.05, echo=True, grammar=grammar, top_p=0.8)
+             max_tokens=650, temperature=0.05, echo=True, grammar=grammar, top_p=0.8)
 
 with open(outfile, "w+") as f, open(outfile2, "w+") as g:
     f.write(json.dumps(output, indent=4))

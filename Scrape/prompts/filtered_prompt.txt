@@ -1,0 +1,142 @@
+Hello, I'm trying to filter out certain questions from BBC2's Only Connect gameshow. Namely the ones that you would know only if you lived in the UK, and also esoteric categories that you would only know if you were a nerd, because I'm trying to create a version for common lay people.
+
+Here are some examples:
+# British sport
+# British geography
+# British politics
+# British pop culture. This includes TV shows, news channels, radio channels, comics, British celebrities who aren't internationally famous.
+# British General Knowledge
+
+I shall now give you more Only Connection categories and their answers. Please pay attention to these instructions:
+For each wall of each episode:
+    1. Analyse in great detail both the category name, and the list of 4 answer items.
+    2a. Give the reasoning as to whether the category would require native British knowledge. 
+    2b. If the category does not inherently require native British knowledge, check and explain whether the answers supplied would require native British knowledge.  
+    3. Given the reasoning you made, classify each category into General Category, General Category but British-oriented answers, and British Category. It is critical to ONLY classify something as British Category if the category is inherently and uniquely British, else label it as General Category but British-oriented answers.
+
+Let's work through some exemplar output. I want you to imitate this style and format of analysis:
+```
+Episode https://ocdb.cc/episode/XYZ
+Wall 1
+1. Acids: "Amino","Malic","Formic","Battery"
+ - Analysis: The listed acids are found in biology, fruits, ants, and everyday technology respectively. These are not specific to any particular country.
+ - Classification: General Category
+2. Adverts: "Trailer","Promo","Plug","Commercial"
+ - Analysis: The terminology related to advertisements is internationally recognized, and the words listed here are used in many countries, not just the UK.
+ - Classification: General Category
+3. Bash Street Kids: "Fatty","Toots","Wilfrid","Smiffy"
+ - Analysis: "The Bash Street Kids" is a comic strip in the British comic book "The Beano". While it might be known to some outside the UK, it is firmly rooted in British culture.
+ - Classification: British Category
+4. High security prisons: "Belmarsh","Woodhill","Whitemoor","Frankland"
+ - Analysis: "High security prisons" is not inherently a British category, but "Belmarsh", "Woodhill", "Whitemoor", and "Frankland" are all British prisons.
+ - Classification: General Category but British-oriented answers
+
+Episode https://ocdb.cc/episode/XYZ
+Wall 2
+1. Australian prime ministers: "Menzies","Abbott","Howard","Gillard"
+ - Analysis: This category pertains to Australian history, not specific to British knowledge.
+ - Classification: General Category
+2. Nicholas Nickleby characters: "Hawk","Cheeryble","Gride","Squeers"
+ - Analysis: "Nicholas Nickleby" is a novel by Charles Dickens, a British author. While Dickens is known worldwide, familiarity with secondary characters might be more common in Britain.
+ - Classification: British Category
+3. Scottish companies: "Drambuie","M&Co","Stagecoach","Tunnock's"
+ - Analysis: These are companies based in Scotland. Some, like "Drambuie" (liqueur producer) and "Tunnock's" (confectionery company), might be recognized outside of the UK due to their international presence, but overall, the list has a British orientation.
+ - Classification: British Category
+4. Horse-drawn vehicles: "Gig","Chariot","Tonga","Tumbrel"
+ - Analysis: Horse-drawn vehicles have been used worldwide in various historical periods. While some terms like "Chariot" are universally recognized, others might be more specific to regions. However, the list overall does not specifically lean towards British terminology.
+ - Classification: General Category
+
+Episode https://ocdb.cc/episode/XYZ
+Wall 1
+1. First halves of comedy duos: "Hinge","Hale","Cannon","French"
+ - Analysis: Comedy duos like "Hinge and Bracket", "Hale and Pace", "Cannon and Ball", and "French and Saunders" are distinctly British.
+ - Classification: British Category
+2. Associated with Stanley: "Laurel","Accrington","Livingstone","Falkland Islands"
+ - Analysis: The category is not inherently British. For instance, one possible answer could have been "Morgan" in reference to the American mulinational investment bank. In the given answers, "Laurel" as in Stan Laurel from Laurel and Hardy is internationally known. The capital city of the Falkland Islands is Port Stanley. However, "Accrington Stanley" (a football club) and "Dr. Livingstone, I presume?" (famous phrase by Henry Morton Stanley) have more British significance.
+ - Classification: General Category but British-oriented answers
+3. Places in Lancashire: "Nelson","Morecambe","Bacup","Preston"
+ - Analysis: Lancashire is a county in England. The places mentioned are towns and cities within that county.
+ - Classification: British Category
+4. Beau ___: "Nash",""Peep",""Bridges",""Geste"
+ - Analysis: Beau Nash was a British dandy and leader of fashion in 18th-century Britain. Beau Peep is a British comic strip. Beau Bridges is an American actor. Beau Geste is a novel written by British author P. C. Wren. Thus, three out of the four terms have a British orientation.
+ - Classification: General Category but British-oriented answers
+
+Wall 2
+1. Historic Welsh counties: "Cardigan","Monmouth","Flint","Radnor"
+ - Analysis: These are historic counties from Wales, a region in the UK.
+ - Classification: British Category
+2. Philip Marlowes: "Mitchum","Gould","Powell","Montgomery"
+ - Analysis: Philip Marlowe is a fictional detective created by Raymond Chandler, an American author. These answers reference actors who played this role in various adaptations, namely Robert Mitchum in "Farewell, My Lovely" (1975) and "The Big Sleep" (1978), Elliott Gould in "The Long Goodbye" (1973), Dick Powell in "Murder, My Sweet" (1944) and Robert Montgomery in "Lady in the Lake" (1947). While Raymond Chandler and the character of Philip Marlowe are American creations, the various film adaptations and the actors who played the character would be well known to film enthusiasts internationally, not just in the U.S. or the U.K.
+ - Classification: British Category
+3. Start with "facilities": "Candle","Lavender","Bogart","Loom"
+ - Analysis: The use of the term "facilities" in this context as a euphemism for toilets/bathrooms is understood internationally. However, some of the slang terms, like "Bog" and "Loo", are distinctly British. While "Loo" might be recognized by some non-British speakers due to its frequent use in media, "Bog" is more regionally specific.
+ - Classification: General Category but British-oriented answers
+4. Can be knitted: "Brow","Bones","Doily","Afghan"
+ - Analysis: Knitting is a universal craft, and terms associated with it are generally known. However, "brow" and "bones" can be considered as playful terms in this context, as one might say "knitted brow" to mean a frowning expression, and "knitting bones" to refer to the healing of broken bones.
+ - Classification: General Category
+
+Episode https://ocdb.cc/episode/XYZ
+Wall 1
+1. Voice procedure: "Five by five","Negative","Pan-pan","Wilco"
+ - Analysis: Voice procedure codes, especially in aviation and maritime contexts, are internationally standardized.
+ - Classification: General Category
+2. 1980s number-one albums: "Alf","Shaky","No Parlez","Zenyattà Mondatta"
+ - Analysis: These are titles of albums that reached number one in the UK in the 1980s. Although some may be recognized internationally, others might be distinctly known in the UK.
+ - Classification: British Category
+3. Extraterrestrials: "Roger","The Mule","Ming","Paul"
+ - Analysis: The category pertains to fictional or purported aliens from various media. While "Roger" from "American Dad!" or "Paul" from the film "Paul" might be more universally known, other references might be more niche, since The Mule is a character from Isaac Asimov's "Foundation" series and Ming the Merciless is a character from the Flash Gordon comics and movies.
+ - Classification: General Category
+4. ____ question: "Irish","$64,000","Trick","West Lothian"
+ - Analysis: The "Irish question" pertains to historic and political debates about the relationship between the UK and Ireland. The "$64,000 question" is a reference to an old American game show. "Trick question" is a universally recognized term for a deceptive question. "West Lothian question" refers to a specific issue related to UK parliamentary practices. Thus, two out of the four answers have a distinct British orientation.
+ - Classification: General Category but British-oriented answers
+
+Wall 2
+1. Typographical symbols: "Hash","Pilcrow","Bullet","Dagger"
+ - Analysis: Typographical symbols are used in typography and print design globally. While some symbols like the "Hash" might be more commonly known, others like "Pilcrow" might be less familiar to the general public, but they are not inherently British.
+ - Classification: General Category
+2. Dashing young men: "Dandy","Blade","Blood","Rake"
+ - Analysis: The category "Dashing young men" does not inherently indicate a British context. These are old-fashioned terms for young men with particular characteristics or lifestyles. While they have historical and literary connotations and might be better recognized by people familiar with classic literature, they are not exclusively British.
+ - Classification: General Category
+3. Bricklaying bonds: "Flemish","English","Rat-trap","Header"
+ - Analysis: These are patterns and methods in which bricks are laid to create walls. The terms "Flemish" and "English" might be understood to have regional origins, but the concept of bricklaying and the associated bonds are universal. 
+ - Classification: General Category
+4. Types of snooker rest: "Butt","Cross","Swan neck","Spider"
+ - Analysis: Snooker is a sport that originated in the British Empire and is still very popular in the UK. While it has an international presence, especially in countries like China, specific terms like these are likely more familiar to those who are acquainted with the sport, especially in its country of origin.
+ - Classification: British Category
+
+Episode https://ocdb.cc/episode/XYZ
+Wall 1
+1. Baseball pitches: "Fast","Curve","Spit","Screw"
+ - Analysis: Baseball is primarily an American sport. The various types of pitches are not inherently British, and are more widely recognized in countries with a strong baseball culture, such as the United States.
+ - Classification: General Category
+2. Characters called Mr. ___: "Rochester","Potato Head","Bean","Benn"
+ - Analysis: Mr. Rochester is a character from "Jane Eyre" by British author Charlotte Brontë. Mr. Potato Head is a popular children's toy and has been featured in movies like "Toy Story", making it internationally known. Mr. Bean is a character played by British comedian Rowan Atkinson and is widely recognized internationally due to the show's global popularity. Mr. Benn is a character from a British children's television series. Therefore, while the category is not inherently British, three of the four characters have British origins.
+ - Classification: General Category but British-oriented answers
+3. Types of sole: "Torbay","Dover","Rock","Lemon"
+ - Analysis: The sole is a type of flatfish. "Torbay" and "Dover" are types of sole named after British locations. "Rock" and "Lemon" soles are types of fish, but the names aren't inherently British.
+ - Classification: General Category but British-oriented answers
+4. Mathematical theorems: "Sandwich","Four Colour","Hairy Ball","Binomial"
+ - Analysis: Mathematical theorems are universal and not specific to any particular country. These theorems are studied and taught in math curriculums around the world.
+ - Classification: General Category
+
+Wall 2
+1. ___ cake: "Jaffa","Eccles","Banbury","Chorley"
+ - Analysis: Cake itself is not uniquely British, but these terms pertain to cakes that are traditionally British. For instance, a Jaffa cake is a popular British snack, and Eccles, Banbury, and Chorley cakes have their origins in specific places in England.
+ - Classification: General Category but British-oriented answers
+2. Quiz show hosts: "Forsyth","Edmonds","Holmes","Parsons"
+ - Analysis: Quiz show hosts are not uniquely British, but Bruce Forsyth, Noel Edmonds, Eamonn Holmes, and Nicholas Parsons are all British personalities.
+ - Classification: General Category but British-oriented answers
+3. Fictional professors: "Plum","Moriarty","Indiana Jones","Higgins"
+ - Analysis: Professor Plum is a character from the board game Cluedo (known as Clue in North America), which originated in England. Professor Moriarty is an antagonist from the Sherlock Holmes stories by Sir Arthur Conan Doyle, a British author. Professor Indiana Jones is an American fictional archaeologist from the Indiana Jones film series. Professor Higgins is a character from "Pygmalion" by George Bernard Shaw, an Irish playwright. While Indiana Jones is internationally recognized, the other three characters have roots in British literature or games.
+ - Classification: General Category but British-oriented answers
+4. US state capitals: "Olympia",""Bismarck",""Phoenix",""Austin"
+ - Analysis: These are capitals of US states, and while the knowledge about them isn't inherently British, it isn't specific to Britain either.
+ - Classification: General Category
+```
+
+Here is the input I now want you to analyse and classify into General Category, General Category but British-oriented answers, and British Category. Each wall has 4 categories and 4 words within them.
+```json
+{"https://ocdb.cc/episode/bankers-v-it-supporters/":{"wall_1":{"Biscuits":["Bourbon","Garibaldi","Lincoln","Abernethy"],"British literary awards":["Angus","Costa","Orwell","Orange"],"Ruling houses of Europe":["Belgium","Grimaldi","Windsor","Bernadotte"],"Scottish castles":["Glamis","Urquhart","Balmoral","Inverary"]},"wall_2":{"Star Trek characters":["Chekov","Kirk","McCoy","Scott"],"Antarctic explorers":["Ross","Shackleton","Weddell","Fuchs"],"Seas in the Pacific Ocean":["Sulu","Yellow","Bismarck","Solomon"],"UK art galleries":["Dean","Walker","Baltic","Whitworth"]}}}
+```
+
+Please encapsulate your answer with triple backticks.

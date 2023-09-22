@@ -1,0 +1,121 @@
+
+Hello, I'm trying to filter out certain questions from BBC2's Only Connect gameshow. Namely the ones that you would know only if you lived in the UK, and also esoteric categories that you would only know if you were a nerd, because I'm trying to create a version for common lay people.
+
+Here are some examples:
+# British sport: "English cricket captains":, "England cricket all-rounders"
+# British geography: "Irish counties", "North Sea oil fields", "___ford place names"
+# British politics: "Chancellors of the Exchequer"
+# British pop culture. This includes TV shows, news channels, radio channels, comics, British celebrities who aren't internationally famous.
+"Blackadder Goes Forth characters", "Grange Hill characters", "Original Radio 1 DJs", "Bash Street Kids"
+# British General Knowledge: "High security prisons", "Morris cars"
+
+I shall now give you some JSON of more Only Connection categories. Please pay attention to these instructions:
+For each wall of each episode:
+    1. Analyse in great detail both the category name, and the list of 4 answer items.
+    2a. Give the reasoning as to whether the category would require native British knowledge. 
+    2b. If the category does not inherently require native British knowledge, check and explain whether the answers supplied would require native British knowledge.  
+    3. Given the reasoning you made, classify each category into General Category, General Category but British-oriented answers, and British Category
+
+Let's work through an example first, with the input as
+```json
+{"https://ocdb.cc/episode/apres-skiers-v-colleagues/":{"wall_1":{"Acids":["Amino","Malic","Formic","Battery"],"Adverts":["Trailer","Promo","Plug","Commercial"],"Bash Street Kids":["Fatty","Toots","Wilfrid","Smiffy"],"High security prisons":["Belmarsh","Woodhill","Whitemoor","Frankland"]}},"https://ocdb.cc/episode/welsh-learners-v-record-collectors/":{"wall_2":{"Australian prime ministers":["Menzies","Abbott","Howard","Gillard"],"Nicholas Nickleby characters":["Hawk","Cheeryble","Gride","Squeers"],"Scottish companies":["Drambuie","M&Co","Stagecoach","Tunnock's"],"Horse-drawn vehicles":["Gig","Chariot","Tonga","Tumbrel"]}},"https://ocdb.cc/episode/relatives-v-record-collectors/":{"wall_1":{"Wrestling moves":["Crucifix","Gogoplata","Boston Crab","Sharpshooter"],"First halves of comedy duos":["Hinge","Hale","Cannon","French"],"Associated with Stanley":["Laurel","Accrington","Livingstone","Falkland Islands"],"Places in Lancashire":["Nelson","Morecambe","Bacup","Preston"]},"wall_2":{"\"City\" US state capitals":["Jefferson","Carson","Oklahoma","Salt Lake"],"Tyre manufacturers":["Pirelli","Bridgestone","Yokohama","Michelin"],"Coronation Street actresses":["Goodyear","Phoenix","Speed","Dawn"],"Scottish cheeses":["Dunlop","Crowdie","Caboc","Lanark Blue"]}},"https://ocdb.cc/episode/welsh-learners-v-relatives/":{"wall_2":{"Historic Welsh counties":["Cardigan","Monmouth","Flint","Radnor"],"Philip Marlowes":["Mitchum","Gould","Powell","Montgomery"],"Start with \"facilities\"":["Candle","Lavender","Bogart","Loom"],"Can be knitted":["Brow","Bones","Doily","Afghan"]}},"https://ocdb.cc/episode/europhiles-v-software-engineers/":{"wall_1":{"Photographic development":["Fogging","Fixer","Stop bath","Wetting agent"],"Voice procedure":["Five by five","Negative","Pan-pan","Wilco"],"1980s number-one albums":["Alf","Shaky","No Parlez","Zenyattà Mondatta"],"Extraterrestrials":["Roger","The Mule","Ming","Paul"]}}}
+```
+
+Exemplar output:
+```
+Episode https://ocdb.cc/episode/apres-skiers-v-colleagues/
+Wall 1
+1. Acids: "Amino", "Malic", "Formic", "Battery"
+ - Analysis: The listed acids are found in biology, fruits, ants, and everyday technology respectively. These are not specific to any particular country.
+ - Classification: General Category
+2. Adverts: "Trailer","Promo","Plug","Commercial"
+ - Analysis: The terminology related to advertisements is internationally recognized, and the words listed here are used in many countries, not just the UK.
+ - Classification: General Category
+3. Bash Street Kids: "Fatty","Toots","Wilfrid","Smiffy"
+ - Analysis: "The Bash Street Kids" is a comic strip in the British comic book "The Beano". While it might be known to some outside the UK, it is firmly rooted in British culture.
+ - Classification: British Category
+4. High security prisons: "Belmarsh","Woodhill","Whitemoor","Frankland"
+ - Analysis: "High security prisons" is not inherently a British category, but "Belmarsh", "Woodhill", "Whitemoor", and "Frankland" are all British prisons.
+ - Classification: General Category but British-oriented answers
+
+Episode https://ocdb.cc/episode/welsh-learners-v-record-collectors/
+Wall 2
+1. Australian prime ministers: "Menzies","Abbott","Howard","Gillard"
+ - Analysis: This category pertains to Australian history, not specific to British knowledge.
+ - Classification: General Category
+2. Nicholas Nickleby characters: "Hawk","Cheeryble","Gride","Squeers"
+ - Analysis: "Nicholas Nickleby" is a novel by Charles Dickens, a British author. While Dickens is known worldwide, familiarity with secondary characters might be more common in Britain.
+ - Classification: British Category
+3. Scottish companies: "Drambuie","M&Co","Stagecoach","Tunnock's"
+ - Analysis: These are companies based in Scotland. Some, like "Drambuie" (liqueur producer) and "Tunnock's" (confectionery company), might be recognized outside of the UK due to their international presence, but overall, the list has a British orientation.
+ - Classification: British Category
+4. Horse-drawn vehicles: "Gig","Chariot","Tonga","Tumbrel"
+ - Analysis: Horse-drawn vehicles have been used worldwide in various historical periods. While some terms like "Chariot" are universally recognized, others might be more specific to regions. However, the list overall does not specifically lean towards British terminology.
+ - Classification: General Category
+
+Episode https://ocdb.cc/episode/relatives-v-record-collectors/
+Wall 1
+1. Wrestling moves: "Crucifix","Gogoplata","Boston Crab","Sharpshooter"
+ - Analysis: Wrestling moves are known internationally and are part of a global sport. The moves listed here are not specific to any particular country.
+ - Classification: General Category
+2. First halves of comedy duos: "Hinge","Hale","Cannon","French"
+ - Analysis: Comedy duos like "Hinge and Bracket", "Hale and Pace", "Cannon and Ball", and "French and Saunders" are distinctly British.
+ - Classification: British Category
+3. Associated with Stanley: "Laurel","Accrington","Livingstone","Falkland Islands"
+ - Analysis: The category is not inherently British. For instance, one possible answer could have been "Morgan" in reference to the American mulinational investment bank. In the given answers, "Laurel" as in Stan Laurel from Laurel and Hardy is internationally known. The capital city of the Falkland Islands is Port Stanley. However, "Accrington Stanley" (a football club) and "Dr. Livingstone, I presume?" (famous phrase by Henry Morton Stanley) have more British significance.
+ - Classification: General Category but British-oriented answers
+4. Places in Lancashire: "Nelson","Morecambe","Bacup","Preston"
+ - Analysis: Lancashire is a county in England. The places mentioned are towns and cities within that county.
+ - Classification: British Category
+
+Wall 2
+1. "City" US state capitals: "Jefferson","Carson","Oklahoma","Salt Lake"
+ - Analysis: State capitals are associated with the US, and knowledge of them isn't necessarily limited to those living in the US, as they can be taught globally.
+ - Classification: General Category
+2. Tyre manufacturers: "Pirelli","Bridgestone","Yokohama","Michelin"
+ - Analysis: The tyre (or tire) manufacturers listed are internationally known brands.
+ - Classification: General Category
+3. Coronation Street actresses: "Goodyear","Phoenix","Speed","Dawn"
+ - Analysis: "Coronation Street" is a long-running British soap opera. The surnames listed as answers are a play on actual names of actresses (like Julie Goodyear) who have appeared on the show, making this very British-oriented.
+ - Classification: British Category
+4. Scottish cheeses: "Dunlop","Crowdie","Caboc","Lanark Blue"
+ - Analysis: The cheeses mentioned are specific to Scotland. While cheese enthusiasts might be familiar with them worldwide, specific knowledge of Scottish cheeses might be more localized.
+ - Classification: British Category
+
+ Episode https://ocdb.cc/episode/welsh-learners-v-relatives/
+Wall 2
+1. Historic Welsh counties: "Cardigan","Monmouth","Flint","Radnor"
+ - Analysis: These are historic counties from Wales, a region in the UK.
+ - Classification: British Category
+2. Philip Marlowes: "Mitchum","Gould","Powell","Montgomery"
+ - Analysis: Philip Marlowe is a fictional detective created by Raymond Chandler, an American author. These answers reference actors who played this role in various adaptations, namely Robert Mitchum in "Farewell, My Lovely" (1975) and "The Big Sleep" (1978), Elliott Gould in "The Long Goodbye" (1973), Dick Powell in "Murder, My Sweet" (1944) and Robert Montgomery in "Lady in the Lake" (1947). While Raymond Chandler and the character of Philip Marlowe are American creations, the various film adaptations and the actors who played the character would be well known to film enthusiasts internationally, not just in the U.S. or the U.K.
+ - Classification: British Category
+3. Start with "facilities": "Candle","Lavender","Bogart","Loom"
+ - Analysis: The use of the term "facilities" in this context as a euphemism for toilets/bathrooms is understood internationally. However, some of the slang terms, like "Bog" and "Loo", are distinctly British. While "Loo" might be recognized by some non-British speakers due to its frequent use in media, "Bog" is more regionally specific.
+ - Classification: General Category but British-oriented answers
+4. Can be knitted: "Brow","Bones","Doily","Afghan"
+ - Analysis: Knitting is a universal craft, and terms associated with it are generally known. However, "brow" and "bones" can be considered as playful terms in this context, as one might say "knitted brow" to mean a frowning expression, and "knitting bones" to refer to the healing of broken bones.
+ - Classification: General Category
+
+Episode https://ocdb.cc/episode/europhiles-v-software-engineers/
+Wall 1
+1. Photographic development: "Fogging","Fixer","Stop bath","Wetting agent"
+ - Analysis: These terms are related to the global practice of photographic development and are not specific to any region.
+ - Classification: General Category
+2. Voice procedure: "Five by five","Negative","Pan-pan","Wilco"
+ - Analysis: Voice procedure codes, especially in aviation and maritime contexts, are internationally standardized.
+ - Classification: General Category
+3. 1980s number-one albums: "Alf","Shaky","No Parlez","Zenyattà Mondatta"
+ - Analysis: These are titles of albums that reached number one in the UK in the 1980s. Although some may be recognized internationally, others might be distinctly known in the UK.
+ - Classification: British Category
+4. Extraterrestrials: "Roger","The Mule","Ming","Paul"
+ - Analysis: The category pertains to fictional or purported aliens from various media. While "Roger" from "American Dad!" or "Paul" from the film "Paul" might be more universally known, other references might be more niche, since The Mule is a character from Isaac Asimov's "Foundation" series and Ming the Merciless is a character from the Flash Gordon comics and movies.
+ - Classification: General Category
+```
+
+Here is the input I now want you to analyse:
+```json
+{"https://ocdb.cc/episode/brasenose-postgrads-v-hitchhikers/":{"wall_1":{"Typographical symbols":["Hash","Pilcrow","Bullet","Dagger"],"Parts of a chimney":["Pot","Stack","Breast","Piece"],"Dashing young men":["Dandy","Blade","Blood","Rake"],"All have teeth":["Comb","Zip","Gearwheel","Saw"]},"wall_2":{"____ question":["Irish","$64,000","Trick","West Lothian"],"Bricklaying bonds":["Flemish","English","Rat-trap","Header"],"Types of snooker rest":["Butt","Cross","Swan neck","Spider"],"White space on a page":["Alley","Leading","Gutter","Margin"]}}}
+```
+
+Please encapsulate your answer with triple backticks

@@ -1,0 +1,117 @@
+```plaintext
+Episode https://ocdb.cc/episode/chessmen-v-charity-puzzlers/
+Wall 1
+1. Muppets: "Waldorf","Beaker","Dr. Teeth","Scooter"
+ - Analysis: The Muppets are a globally recognized puppet ensemble created by Jim Henson. The characters listed here are known internationally.
+ - Classification: General Category
+2. Haircuts: "Caesar","Buzz","Pudding basin","Crew"
+ - Analysis: Haircuts are not inherently British, and the styles listed here are recognized internationally. However, the term "Pudding basin" is a particularly British term for a type of haircut.
+ - Classification: General Category but British-oriented answers
+3. Trophies in rugby: "Nelson Mandela","Webb Ellis","Calcutta","Cook"
+ - Analysis: Rugby is a sport that originated in England and is popular in many countries, especially those within the Commonwealth. The trophies listed here are associated with international rugby competitions, but the knowledge is more likely to be common among rugby-following nations.
+ - Classification: British Category
+4. Jazz trumpeters: "Davis","Gillespie","Armstrong","Baker"
+ - Analysis: Jazz is an American genre, and the trumpeters listed here are internationally famous musicians. This category is not specifically British.
+ - Classification: General Category
+
+Wall 2
+1. Pigeons: "Passenger","Rock","Wood","Homing"
+ - Analysis: Pigeons are bird species found all over the world. The types listed here are not specific to Britain.
+ - Classification: General Category
+2. Beard styles: "Spade","Chinstrap","Van Dyck","Soul patch"
+ - Analysis: Beard styles are not inherently British, and the ones listed here are recognized internationally.
+ - Classification: General Category
+3. Warships: "Monitor","Galley","Carrier","Corvette"
+ - Analysis: Warships are used by navies around the world. The types listed here are not specific to Britain.
+ - Classification: General Category
+4. Types of bicycles: "Beach cruiser","Mountain","Tandem","Racing"
+ - Analysis: Bicycles are used worldwide, and the types listed here are internationally recognized.
+ - Classification: General Category
+
+Episode https://ocdb.cc/episode/cambridge-quiz-society-v-mathematicians/
+Wall 1
+1. Hebrew letters: "He","Gimel","Beth","Nun"
+ - Analysis: These are letters from the Hebrew alphabet, which is used in Israel and by Jewish communities worldwide. This knowledge is not specific to any particular country.
+ - Classification: General Category
+2. Golf shots: "Flop","Chip","Shank","Drive"
+ - Analysis: Golf is a sport that is played internationally. The terms related to different types of golf shots are universally recognized and not specific to Britain.
+ - Classification: General Category
+3. Ways to 'tease': "Chaff","Rib","Kid","Rag"
+ - Analysis: The terms used to describe teasing are English language idioms and not inherently British. They are generally understood by English speakers, regardless of their country of origin.
+ - Classification: General Category
+4. End in boy's names: "Fluke","Divan","Trick","Truss"
+ - Analysis: These words can all end in common boys' names (Luke, Ivan, Rick, Russ), but the category does not inherently require British knowledge. The names are widely used in many English-speaking countries.
+ - Classification: General Category
+
+Wall 2
+1. Soups: "Mock turtle","Alphabet","Palestine","Pea"
+ - Analysis: These are types of soups that are known internationally. While "Mock turtle" soup has British origins, "Alphabet" soup is popular with children worldwide, and "Pea" soup is a common dish in many cultures. "Palestine" soup might be less widely recognized but is not inherently British.
+ - Classification: General Category
+2. Places called '____ Springs': "Alice","Buffalo","Palm","Colorado"
+ - Analysis: These are internationally recognized places that have 'Springs' in their name. Alice Springs is in Australia, Palm Springs and Colorado Springs are in the United States, and Buffalo Springs is in Kenya. This knowledge is not specific to Britain.
+ - Classification: General Category
+3. Anagrams of other clues: "Lamp","Ape","Shrub","Celia"
+ - Analysis: Anagrams are a form of word play that is not specific to any country. The words listed here could be anagrams of words in any language, not just English.
+ - Classification: General Category
+4. 'As mad as a ____': "March Hare","Brush","Wet hen","Bag of hammers"
+ - Analysis: The phrase "As mad as a March Hare" originates from the English saying describing the erratic behavior of hares during their mating season, and it's famously associated with Lewis Carroll's "Alice's Adventures in Wonderland", a British book. "Mad as a brush" and "mad as a wet hen" are also idioms that describe someone behaving in a crazy manner, with "mad as a brush" being more common in the UK. "Mad as a bag of hammers" is a more colloquial saying used in various parts of the world to denote someone acting foolishly or irrationally.
+ - Classification: General Category but British-oriented answers
+
+Episode https://ocdb.cc/episode/chessmen-v-rugby-boys/
+Wall 1
+1. Islands in New York Harbour: "Liberty","Ellis","Rikers","Long"
+ - Analysis: These islands are located in the United States, not Britain.
+ - Classification: General Category
+2. Blue Peter presenters: "Groom","Curry","Bacon","Salmon"
+ - Analysis: "Blue Peter" is a British children's television programme. The presenters listed here are all associated with this show.
+ - Classification: British Category
+3. Terms in set theory: "Class","Complement","Union","Singleton"
+ - Analysis: Set theory is a branch of mathematical logic that is not country-specific.
+ - Classification: General Category
+4. Types of pink: "Persian","Coral","Carnation","Rose"
+ - Analysis: The types of pink listed here are not specific to Britain.
+ - Classification: General Category
+
+Wall 2
+1. Foreign secretaries: "Cook","Beckett","Straw","Owen"
+ - Analysis: The foreign secretaries listed here are all British politicians.
+ - Classification: British Category
+2. Aviators: "Johnson","Post","Wright","Hughes"
+ - Analysis: The aviators listed here are internationally recognized figures in aviation history. This category is not specifically British.
+ - Classification: General Category
+3. Moths: "Miller","Gypsy","Winter","Hawk"
+ - Analysis: Moths are a type of insect found worldwide. The types listed here are not specific to Britain.
+ - Classification: General Category
+4. The Last ___: "Ditch","Trump","Emperor","Supper"
+ - Analysis: The category involves phrases beginning with "The Last". These phrases are not inherently British.
+ - Classification: General Category
+
+Episode https://ocdb.cc/episode/chessmen-v-mathematicians/
+Wall 1
+1. Professional snooker players: "Fu","Virgo","White","Perry"
+ - Analysis: Snooker is a sport that originated in the British Empire and is still very popular in the UK. While it has an international presence, especially in countries like China, specific terms like these are likely more familiar to those who are acquainted with the sport, especially in its country of origin.
+ - Classification: British Category
+2. Yoga positions: "Wheel","Cobra","Lotus","Diamond"
+ - Analysis: Yoga is a group of physical, mental, and spiritual practices that originated in ancient India. The poses listed here are all common yoga poses. This knowledge is not specific to any particular country.
+ - Classification: General Category
+3. Constellations: "Orion","Crater","Indus","Hydra"
+ - Analysis: These are all constellations that can be seen from various parts of the world. While some constellations may be more visible from certain locations, the knowledge required to answer this is not inherently British.
+ - Classification: General Category
+4. Snow___: "Board","Ball","Mobile","Plough"
+ - Analysis: The category involves words that begin with "Snow". These terms are not inherently British.
+ - Classification: General Category
+
+Wall 2
+1. Magic ___: "Bullet","Carpet","Circle","Lantern"
+ - Analysis: The category involves phrases beginning with "Magic". These phrases are not inherently British.
+ - Classification: General Category
+2. Ways to criticise: "Roast","Slate","Pan","Hammer"
+ - Analysis: The terms used to describe criticism are not inherently British, and the ones listed here are generally recognized in English-speaking countries.
+ - Classification: General Category
+3. Waveforms: "Triangle","Square","Sine","Sawtooth"
+ - Analysis: Waveforms are a concept in physics and are not country-specific.
+ - Classification: General Category
+4. Famous Peters: "Robinson","Powell","Cook","Jackson"
+ - Analysis: Peter Robinson is a Northern Irish politician and former First Minister of Northern Ireland. Peter Powell is a British former radio and television presenter, primarily known for his time on BBC Radio 1. Peter Cook was a British satirist, writer, and comedian. Peter Jackson is a New Zealand film director, screenwriter, and film producer best known for the "Lord of the Rings" and "Hobbit" film trilogies. While the category of "Famous Peters" isn't inherently British, three of the four listed are closely associated with the UK.
+ - Classification: General Category but British-oriented answers
+```

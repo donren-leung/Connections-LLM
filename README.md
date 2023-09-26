@@ -1,6 +1,8 @@
 # Connections-LLM
 Synthesising Connections puzzles with an LLM
 
+### If you are here because I sent a link to you, then please come back in a day! I've been too busy with hunting for a rtx 3090 so all my thoughts are still in my head
+
 TODO list:
 randomise category word seeds
 Clean up conditional tone in bonus combo

@@ -5,16 +5,18 @@
     <em>Synthesising <a href="https://www.nytimes.com/games/connections">the popular NY Times puzzle</a> with an LLM</em>
 </font>
 
+<br>
+
 If you didn't know, NY Times has a new daily puzzle called "Connections" which they ripped off of BBC's Only Connect. To be fair, they have made the categories and answers more casual and doable. You have a 4x4 grid of 16 words, and they can be divided evenly into 4 secret categories. The goal is to guess 4 words at a time to see if you've uncovered a category, and you get 4 lives.
 
-### Why LLMs?
-The categories are diverse and can be very creative and out-of-the-box. Here are some examples I compiled in just 10 minutes (ALLCAPS: NY Times, Capitalcase BBC).
+## Why LLMs?
+The categories are diverse and can be very creative and out-of-the-box. Here are some examples I compiled in just 10 minutes (ALLCAPS: NY Times, Capitalcase: BBC).
 
 Literal dictionary meaning:
 - WET WEATHER                   (HAIL, RAIN, SLEET, SNOW)
 - MAR                           (CHIP, DING, NICK, SCRATCH)
 
-Association with something
+Association with something:
 - Things you can 'fire'         (Question, Pot, Gun, Employee)
 - Things that can be spread     (Germs, Rumours, Butter, Wings)
 - COMMON MERCH ITEMS            (MUG, TEE, PEN, TOTE)
@@ -39,23 +41,15 @@ More word play:
 - NUMBER HOMOPHONES             (WON, TOO, ATE, FOR)
 - PALINDROMES                   (KAYAK, LEVEL, MOM, RACE CAR)
 
-Even from this small corpus, you can see how wide the gamut of categories is. You couldn't fathomly list all the categories a word could belong to - even if you had a dictionary and a list of all the idioms and rhymes and boy names in the world, you still wouldn't be able to list 4 Car Rental Companies, or 4 Harry Potter Spells or 4 Travel Souvenir Ideas.
+Even from this small corpus, you can see how wide the gamut of categories is. This is the beauty I see in this game.
 
+You couldn't fathomly list all the categories a word could belong to. Even if you made a semantic connection graph of words from a dictionary, and another from all the idioms and rhymes ever known, and one for boy names in the world, you still wouldn't be able to list 4 Car Rental Companies, or 4 Harry Potter Spells or 4 Travel Souvenir Ideas, or 4 Nvidia Architecture Codenames.
 
-### If you are here because I sent a link to you, then please come back in a day! I've been too busy with hunting for a rtx 3090 so all my thoughts are still in my head
+You pretty much need to have lived as a human, in the physical world seeing things, doing things, hearing and learning about things. The next best thing IMO is a generative pre-trained model that has trawled through the internet and has read and trained on everything we have ever talked about. Basically a talking wikipedia.
 
-TODO list:
-randomise category word seeds
-Clean up conditional tone in bonus combo
-Capitalise Category Names
+## Roadmap
+TODO
 
-Branch off the same category twice
-Strategic placement of quotation marks around brainstorm words, instead of CAPITAL CASE?
+### Hi! I'm still working on documenting everything I've worked on so far. If you are interested to know more about something I haven't written about yet, I'd be happy to discuss this further!
+Soz, I've been too busy with hunting for a rtx 3090 lately
 
-Review chatgpt log and copy paste into here
-
-- Just list category pairs and the red herrings between them - way easier than finding good puzzle set.
-
-BBC is good for individual categories
-Get list of good examples, lsit of bad (celebrities, british tv shows etc.)
-Then ask chat gpt to filter out the rest.

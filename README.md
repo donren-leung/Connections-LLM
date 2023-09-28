@@ -83,5 +83,5 @@ There is so much more potential than just parroting the NY Times! And there are 
         NY Times has a colour system for difficulty
 
 
-### Hi! I'm still working on documenting everything I've worked on so far. If you are interested to know more about something I haven't written about yet, I'd be happy to discuss this further!
+### Hi! I'm still working on documenting everything I've worked on so far. Depsite the humongous wall of text above, this is still very early days of the project. If you are interested to know more about something I haven't written about yet, especially if I've linked you here, I'd be happy to discuss this further!
 
